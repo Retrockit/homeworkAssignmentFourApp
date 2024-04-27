@@ -17,6 +17,6 @@ else
     if (age < 21)
     {
         int years = 21 - age;
-        Console.WriteLine("Hello " + name + ", you should wait " + years + " years before starting this class.");
+        Console.WriteLine($"Hello {name}, you should wait {years} years before starting this class.");
     }
 }
