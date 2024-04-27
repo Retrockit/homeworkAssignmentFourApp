@@ -12,11 +12,9 @@ if ((name == "Bob" || name == "Sue") && age >= 21)
 {
     Console.WriteLine("Hello Professor " + name);
 }
-else
+
+else if (age < 21)
 {
-    if (age < 21)
-    {
-        int years = 21 - age;
-        Console.WriteLine($"Hello {name}, you should wait {years} years before starting this class.");
-    }
+    int years = 21 - age;
+    Console.WriteLine($"Hello {name}, you should wait {years} years before starting this class.");
 }
